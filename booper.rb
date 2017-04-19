@@ -66,7 +66,7 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/airhorn.mp3`
 
   when "hello darkness"
-      `omxplayer ./sounds/hello darkness.mp3`
+      `omxplayer ./sounds/hello_darkness.mp3`
 
   when "hmm"
       `omxplayer ./sounds/hmm.mp3`
@@ -78,16 +78,16 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/burp.mp3`
 
   when "bad hombres"
-      `omxplayer ./sounds/bad hombres.mp3`
+      `omxplayer ./sounds/bad_hombres.mp3`
 
   when "oh man"
-      `omxplayer ./sounds/oh man.mp3`
+      `omxplayer ./sounds/oh_man.mp3`
 
   when "georgie"
       `omxplayer ./sounds/georgie.mp3`
 
   when "exsqueeze"
-      `omxplayer ./sounds/exsqueeze me.mp3`
+      `omxplayer ./sounds/exsqueeze_me.mp3`
 
   when "photograph"
       `omxplayer ./sounds/photograph.mp3`
@@ -99,7 +99,7 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/r2.mp3`
 
   when "chocolate rain"
-      `omxplayer ./sounds/chocolate rain.mp3`
+      `omxplayer ./sounds/chocolate_rain.mp3`
 
   when "buzz"
       `omxplayer ./sounds/buzz.mp3`
@@ -114,7 +114,7 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/waterfalls.mp3`
 
   when "special friend"
-      `omxplayer ./sounds/special friend.mp3`
+      `omxplayer ./sounds/special_friend.mp3`
 
   when "quiet"
       `omxplayer ./sounds/quiet.mp3`
@@ -123,7 +123,7 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/kazoo.mp3`
 
   when "kazoo jam"
-      `omxplayer ./sounds/kazooo.mp3`
+      `omxplayer ./sounds/kazoo_jam.mp3`
 
   when "epona"
       `omxplayer ./sounds/epona.mp3`
@@ -132,13 +132,13 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/toasty.mp3`
 
   when "kazoo jam 2"
-      `omxplayer ./sounds/kazoo jam 2.mp3`
+      `omxplayer ./sounds/kazoo_jam2.mp3`
 
   when "jody"
       `omxplayer ./sounds/jody.mp3`
 
   when "one week"
-      `omxplayer ./sounds/one week.mp3`
+      `omxplayer ./sounds/one_week.mp3`
 
   when "sprite"
       `omxplayer ./sounds/sprite.mp3`
@@ -168,7 +168,7 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/yup.mp3`
 
   when "sad horn"
-      `omxplayer ./sounds/sad horn.mp3`
+      `omxplayer ./sounds/sad_horn.mp3`
 
   when "urkel"
       `omxplayer ./sounds/urkel.mp3`
@@ -180,10 +180,10 @@ mq.subscribe do |sound_type|
       `omxplayer ./sounds/hamburger.mp3`
 
   when "jody slow"
-      `omxplayer ./sounds/jody slow.mp3`
+      `omxplayer ./sounds/jody_slow.mp3`
 
   when "fun fun"
-      `omxplayer ./sounds/fun fun.mp3`
+      `omxplayer ./sounds/fun_fun.mp3`
 
   when "cold"
       `omxplayer ./sounds/cold.mp3`
