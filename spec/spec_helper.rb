@@ -2,13 +2,10 @@ require 'slack-ruby-bot/rspec'
 require 'bunny-mock'
 require 'rspec'
 
-require_relative '../BeepBoopBot.rb'
-require_relative '../booper.rb'
-require_relative '../MQ.rb'
+require_relative '../word_list'
 
-
-RSpec.configure do |config|
-  config.before(:each) do
-    AMQFactory.connection = BunnyMock.new.start
-  end
-end
+# RSpec.configure do |config|
+#   config.before(:each) do
+#     AMQFactory.connection = BunnyMock.new.start
+#   end
+# end
