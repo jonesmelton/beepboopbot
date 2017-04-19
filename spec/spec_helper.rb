@@ -1,5 +1,5 @@
-require 'slack-ruby-bot/rspec'
-require 'bunny-mock'
+# require 'slack-ruby-bot/rspec'
+# require 'bunny-mock'
 require 'rspec'
 
 require_relative '../word_list'
