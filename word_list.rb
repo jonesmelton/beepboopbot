@@ -233,7 +233,7 @@ WORDS = [
   {
     match: /catch me|bout dat/i,
     message: "catch me",
-    name: "catch me |bout dat"
+    name: "catch me OR bout dat"
   },
   {
     match: /y(e|u)p/i,
