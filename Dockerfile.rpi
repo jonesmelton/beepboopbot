@@ -1,0 +1,25 @@
+FROM resin/rpi-raspbian
+
+ENV BUILD_PACKAGES bash build-essential
+ENV RUBY_PACKAGES ruby2.3 ruby2.3-dev
+
+# Update and install all of the required packages.
+
+RUN echo "deb http://archive.raspbian.org/raspbian/ stretch main" \
+         >> /etc/apt/sources.list
+
+RUN apt-get update && \
+    apt-get install apt-utils && \
+    apt-get install $BUILD_PACKAGES && \
+    apt-get install $RUBY_PACKAGES
+
+RUN gem install bundler
+
+RUN mkdir /usr/app
+WORKDIR /usr/app
+
+COPY Gemfile /usr/app/
+COPY Gemfile.lock /usr/app/
+RUN bundle install
+
+COPY . /usr/app
