@@ -11,7 +11,8 @@ RUN echo "deb http://archive.raspbian.org/raspbian/ stretch main" \
 RUN apt-get update && \
     apt-get install apt-utils && \
     apt-get install $BUILD_PACKAGES && \
-    apt-get install $RUBY_PACKAGES
+    apt-get install $RUBY_PACKAGES && \
+    apt-get install omxplayer
 
 RUN gem install bundler
 
