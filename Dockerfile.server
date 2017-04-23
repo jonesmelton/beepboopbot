@@ -19,3 +19,5 @@ COPY Gemfile.lock /usr/app/
 RUN bundle install
 
 COPY . /usr/app
+
+CMD ["bundle", "exec", "ruby", "server.rb"]
